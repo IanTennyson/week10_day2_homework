@@ -40,7 +40,14 @@ describe("Park", function(){
     this.park1.add(this.dinosaur1);
     this.park1.add(this.dinosaur2);
     this.park1.add(this.dinosaur3);
-    assert.strictEqual(2, this.park1.dinosWithMoreThanTwoOffspring.length);
+    this.park1.add(this.dinosaur4);
+    assert.strictEqual(3, this.park1.dinosWithMoreThanTwoOffspring().length);
+  })
+
+  it("can add number of dinos to number of dino babies!", function(){
+    this.park1.add(this.dinosaur1);
+    this.park1.add(this.dinosaur2);
+    assert.strictEqual(13, this.park.totalNumberOfDinos);
   })
 
 });
