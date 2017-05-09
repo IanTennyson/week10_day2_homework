@@ -1,0 +1,14 @@
+{
+  "name": "jurassic_park",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dinosaur.js",
+  "scripts": {
+    "test": "mocha specs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^3.3.0"
+  }
+}
