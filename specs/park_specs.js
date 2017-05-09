@@ -47,7 +47,7 @@ describe("Park", function(){
   it("can add number of dinos to number of dino babies!", function(){
     this.park1.add(this.dinosaur1);
     this.park1.add(this.dinosaur2);
-    assert.strictEqual(13, this.park.totalNumberOfDinos);
+    assert.strictEqual(13, this.park1.totalNumberOfDinos());
   })
 
 });
