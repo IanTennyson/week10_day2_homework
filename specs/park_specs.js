@@ -33,6 +33,7 @@ describe("Park", function(){
     this.park1.add(this.dinosaur4);
     assert.strictEqual(6, this.park1.enclosure.length);
     this.park1.remove("Barney");
+    console.log("chekcing park in can delete test", this.park1)
     assert.strictEqual(1, this.park1.enclosure.length);
   });
 
